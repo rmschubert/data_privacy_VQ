@@ -53,7 +53,7 @@ pc = [f"{i}" for i in range(10)]
 lr = 1.0
 glvq = PlainGLVQ()
 accs = [0.0]
-epochs = 5
+epochs = 100
 results = {
     "Images": [],
     "Approximations": [],
