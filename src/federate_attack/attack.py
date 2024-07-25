@@ -3,7 +3,10 @@ import numpy as np
 
 
 def adam_opt(grads, moms, t, a=0.001, b1=0.9, b2=0.999, eps=1e-8):
-    ## ADAM optimizer - hyperparameters taken from: paper-source
+    ## ADAM optimizer - hyperparameters taken from:
+    ## Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic opti-
+    ## mization. CoRR, abs/1412.6980, 2014.
+    ## https://arxiv.org/pdf/1412.6980
 
     new_grads = []
     new_moms = []
@@ -49,6 +52,9 @@ def find_updated_prototypes(p_t, p_t1):
     updated_protos_t1 = p_t1[mask]
 
     imp_diffs = updated_protos_t1 - updated_protos_t
+
+    ## the below function plot_protos can be used
+    ## to evaluate the difference vector approach visually
 
     # plot_protos(updated_protos_t)
 
