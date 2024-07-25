@@ -1,8 +1,9 @@
 # Vector Quantization and Data Privacy
-This repository contains the code for the experiments of the submission *"About Vector Quantization and its Privacy in Federated Learning"* by Ronny Schubert and Thomas Villmann (2024).
+This repository contains the code for the experiments of the work *"About Vector Quantization and its Privacy in Federated Learning"* by Ronny Schubert and Thomas Villmann (2024) presented at ESANN 2024.
 
 ## How to run the Experiments
-We setup the virtual environment via [uv](https://github.com/astral-sh/uv). Follow these steps to recreate the environment
+First clone the repository and then proceed as follows.
+We set up the virtual environment via [uv](https://github.com/astral-sh/uv). Follow these steps to recreate the environment
 
 ```bash
 uv venv
